@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21111995189D17CC00CA08B2 /* shutter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21111994189D17CC00CA08B2 /* shutter.wav */; };
+		21111996189D17CC00CA08B2 /* shutter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21111994189D17CC00CA08B2 /* shutter.wav */; };
+		216FBA7A188DA179007BCCC5 /* UICustomRecordButtonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FBA79188DA179007BCCC5 /* UICustomRecordButtonBase.m */; };
+		216FBA7B188DA179007BCCC5 /* UICustomRecordButtonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FBA79188DA179007BCCC5 /* UICustomRecordButtonBase.m */; };
+		217AA2C2182E945C00E21F5E /* FaceSpy copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 217AA2C1182E945C00E21F5E /* FaceSpy copy-Info.plist */; };
+		94ED21E617FECD3C009CC021 /* FPPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21DD17FECD3C009CC021 /* FPPopoverController.m */; };
+		94ED21E717FECD3C009CC021 /* FPPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21DF17FECD3C009CC021 /* FPPopoverView.m */; };
+		94ED21E817FECD3D009CC021 /* FPTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21E117FECD3C009CC021 /* FPTouchView.m */; };
+		94ED21E917FECD3D009CC021 /* JJToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21E317FECD3C009CC021 /* JJToolbar.m */; };
+		94ED21EA17FECD3D009CC021 /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21E517FECD3C009CC021 /* JJViewController.m */; };
+		94ED21F317FED170009CC021 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21F117FED170009CC021 /* ScanViewController.m */; };
+		94ED21F417FED170009CC021 /* ScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ED21F217FED170009CC021 /* ScanViewController.xib */; };
+		94ED21F617FED4FF009CC021 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ED21F517FED4FF009CC021 /* MainWindow.xib */; };
+		94ED222217FEFF73009CC021 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED222017FEFF73009CC021 /* HistoryViewController.m */; };
+		94ED222317FEFF73009CC021 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ED222117FEFF73009CC021 /* HistoryViewController.xib */; };
+		94ED222817FF0260009CC021 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED222617FF0260009CC021 /* SettingsViewController.m */; };
+		94ED222917FF0260009CC021 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ED222717FF0260009CC021 /* SettingsViewController.xib */; };
+		94EED63C1800CCC100E221A4 /* HistoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EED63B1800CCC100E221A4 /* HistoryObject.m */; };
+		94F0AFE31801E6AB004088E3 /* AlertSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F0AFE11801E6AB004088E3 /* AlertSettingViewController.m */; };
+		94F0AFE41801E6AB004088E3 /* AlertSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F0AFE21801E6AB004088E3 /* AlertSettingViewController.xib */; };
+		94F550361800AF6C00475AA2 /* PopOverMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F550341800AF6C00475AA2 /* PopOverMenuViewController.m */; };
+		94F550371800AF6C00475AA2 /* PopOverMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F550351800AF6C00475AA2 /* PopOverMenuViewController.xib */; };
+		94F63CBE17FF503A00F0F582 /* MinimizedModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F63CBC17FF503A00F0F582 /* MinimizedModeViewController.m */; };
+		94F63CBF17FF503A00F0F582 /* MinimizedModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F63CBD17FF503A00F0F582 /* MinimizedModeViewController.xib */; };
+		94FD623217FE7DB900348EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD623117FE7DB900348EE7 /* Foundation.framework */; };
+		94FD623417FE7DB900348EE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD623317FE7DB900348EE7 /* CoreGraphics.framework */; };
+		94FD623617FE7DB900348EE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD623517FE7DB900348EE7 /* UIKit.framework */; };
+		94FD623C17FE7DB900348EE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FD623A17FE7DB900348EE7 /* InfoPlist.strings */; };
+		94FD623E17FE7DB900348EE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD623D17FE7DB900348EE7 /* main.m */; };
+		94FD624217FE7DB900348EE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD624117FE7DB900348EE7 /* AppDelegate.m */; };
+		94FD624417FE7DB900348EE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FD624317FE7DB900348EE7 /* Images.xcassets */; };
+		94FD624B17FE7DB900348EE7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD624A17FE7DB900348EE7 /* XCTest.framework */; };
+		94FD624C17FE7DB900348EE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD623117FE7DB900348EE7 /* Foundation.framework */; };
+		94FD624D17FE7DB900348EE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD623517FE7DB900348EE7 /* UIKit.framework */; };
+		94FD625517FE7DBA00348EE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FD625317FE7DBA00348EE7 /* InfoPlist.strings */; };
+		94FD625717FE7DBA00348EE7 /* FaceSpyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD625617FE7DBA00348EE7 /* FaceSpyTests.m */; };
+		D302821E1805E3D600B78B93 /* CameraEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D302821B1805E3D600B78B93 /* CameraEngine.m */; };
+		D302821F1805E3D600B78B93 /* VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D302821D1805E3D600B78B93 /* VideoEncoder.m */; };
+		D30282211805E40300B78B93 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30282201805E40300B78B93 /* AVFoundation.framework */; };
+		D30282231805E40A00B78B93 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30282221805E40A00B78B93 /* CoreVideo.framework */; };
+		D30282251805E41700B78B93 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30282241805E41700B78B93 /* CoreImage.framework */; };
+		D30282271805E45900B78B93 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30282261805E45900B78B93 /* AssetsLibrary.framework */; };
+		D302822C1805E48700B78B93 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D30282291805E48700B78B93 /* FaceView.m */; };
+		D335AB9418166DDE00982A84 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D335AB9218166DDE00982A84 /* iTunesArtwork */; };
+		D335AB9518166DDE00982A84 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = D335AB9318166DDE00982A84 /* iTunesArtwork@2x */; };
+		D337ECBB180BEF7C00BAFD88 /* UISwipeGestureRecognizerWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = D337ECBA180BEF7C00BAFD88 /* UISwipeGestureRecognizerWithData.m */; };
+		D337ECBE180BF0FA00BAFD88 /* UIButtonWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = D337ECBD180BF0FA00BAFD88 /* UIButtonWithData.m */; };
+		D337ECC8180BF36600BAFD88 /* UIViewWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = D337ECC7180BF36600BAFD88 /* UIViewWithData.m */; };
+		D346273618263C1200F4C1C9 /* VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D302821D1805E3D600B78B93 /* VideoEncoder.m */; };
+		D346273718263C1200F4C1C9 /* FPPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21DD17FECD3C009CC021 /* FPPopoverController.m */; };
+		D346273818263C1200F4C1C9 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DFE79C180D2A1200E88B5C /* SWTableViewCell.m */; };
+		D346273918263C1200F4C1C9 /* FPTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21E117FECD3C009CC021 /* FPTouchView.m */; };
+		D346273A18263C1200F4C1C9 /* PopOverMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F550341800AF6C00475AA2 /* PopOverMenuViewController.m */; };
+		D346273B18263C1200F4C1C9 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED222017FEFF73009CC021 /* HistoryViewController.m */; };
+		D346273C18263C1200F4C1C9 /* UIButtonWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = D337ECBD180BF0FA00BAFD88 /* UIButtonWithData.m */; };
+		D346273D18263C1200F4C1C9 /* ScanFaceDetectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DFE792180C643000E88B5C /* ScanFaceDetectedViewController.m */; };
+		D346273E18263C1200F4C1C9 /* CameraEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D302821B1805E3D600B78B93 /* CameraEngine.m */; };
+		D346273F18263C1200F4C1C9 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DFA7C18087CE300BA4980 /* Video.m */; };
+		D346274018263C1200F4C1C9 /* FaceSpyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DFA7718087A0200BA4980 /* FaceSpyHelper.m */; };
+		D346274118263C1200F4C1C9 /* UIViewWithShakeDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DFA6B18081D7500BA4980 /* UIViewWithShakeDetect.m */; };
+		D346274218263C1200F4C1C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD624117FE7DB900348EE7 /* AppDelegate.m */; };
+		D346274318263C1200F4C1C9 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21F117FED170009CC021 /* ScanViewController.m */; };
+		D346274418263C1200F4C1C9 /* JJToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21E317FECD3C009CC021 /* JJToolbar.m */; };
+		D346274518263C1200F4C1C9 /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21E517FECD3C009CC021 /* JJViewController.m */; };
+		D346274618263C1200F4C1C9 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = D30282291805E48700B78B93 /* FaceView.m */; };
+		D346274718263C1200F4C1C9 /* HistoryObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EED63B1800CCC100E221A4 /* HistoryObject.m */; };
+		D346274818263C1200F4C1C9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED222617FF0260009CC021 /* SettingsViewController.m */; };
+		D346274918263C1200F4C1C9 /* FPPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED21DF17FECD3C009CC021 /* FPPopoverView.m */; };
+		D346274A18263C1200F4C1C9 /* UIViewWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = D337ECC7180BF36600BAFD88 /* UIViewWithData.m */; };
+		D346274B18263C1200F4C1C9 /* UISwipeGestureRecognizerWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = D337ECBA180BEF7C00BAFD88 /* UISwipeGestureRecognizerWithData.m */; };
+		D346274C18263C1200F4C1C9 /* MinimizedModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F63CBC17FF503A00F0F582 /* MinimizedModeViewController.m */; };
+		D346274D18263C1200F4C1C9 /* AlertSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F0AFE11801E6AB004088E3 /* AlertSettingViewController.m */; };
+		D346274E18263C1200F4C1C9 /* UITapGestureRecognizerWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DFE799180D005000E88B5C /* UITapGestureRecognizerWithData.m */; };
+		D346274F18263C1200F4C1C9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D37DFA701808305700BA4980 /* Model.xcdatamodeld */; };
+		D346275018263C1200F4C1C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FD623D17FE7DB900348EE7 /* main.m */; };
+		D346275218263C1200F4C1C9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DFA7918087BCD00BA4980 /* MediaPlayer.framework */; };
+		D346275318263C1200F4C1C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DFA6D1808301400BA4980 /* CoreData.framework */; };
+		D346275418263C1200F4C1C9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34AD3601807247A00A56D47 /* AudioToolbox.framework */; };
+		D346275518263C1200F4C1C9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30282261805E45900B78B93 /* AssetsLibrary.framework */; };
+		D346275618263C1200F4C1C9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30282241805E41700B78B93 /* CoreImage.framework */; };
+		D346275718263C1200F4C1C9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30282221805E40A00B78B93 /* CoreVideo.framework */; };
+		D346275818263C1200F4C1C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30282201805E40300B78B93 /* AVFoundation.framework */; };
+		D346275918263C1200F4C1C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD623317FE7DB900348EE7 /* CoreGraphics.framework */; };
+		D346275A18263C1200F4C1C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD623517FE7DB900348EE7 /* UIKit.framework */; };
+		D346275B18263C1200F4C1C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD623117FE7DB900348EE7 /* Foundation.framework */; };
+		D346275E18263C1200F4C1C9 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D335AB9218166DDE00982A84 /* iTunesArtwork */; };
+		D346276318263C1200F4C1C9 /* AlertSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F0AFE21801E6AB004088E3 /* AlertSettingViewController.xib */; };
+		D346276B18263C1200F4C1C9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ED21F517FED4FF009CC021 /* MainWindow.xib */; };
+		D346276F18263C1200F4C1C9 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ED222717FF0260009CC021 /* SettingsViewController.xib */; };
+		D346277118263C1200F4C1C9 /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ED222117FEFF73009CC021 /* HistoryViewController.xib */; };
+		D346277518263C1200F4C1C9 /* MinimizedModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F63CBD17FF503A00F0F582 /* MinimizedModeViewController.xib */; };
+		D346277618263C1200F4C1C9 /* PopOverMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F550351800AF6C00475AA2 /* PopOverMenuViewController.xib */; };
+		D346277C18263C1200F4C1C9 /* ScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ED21F217FED170009CC021 /* ScanViewController.xib */; };
+		D346277E18263C1200F4C1C9 /* ScanFaceDetectedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3DFE793180C643000E88B5C /* ScanFaceDetectedViewController.xib */; };
+		D346278518263C1200F4C1C9 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = D335AB9318166DDE00982A84 /* iTunesArtwork@2x */; };
+		D346278A18263C1200F4C1C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FD623A17FE7DB900348EE7 /* InfoPlist.strings */; };
+		D346278B18263C1200F4C1C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FD624317FE7DB900348EE7 /* Images.xcassets */; };
+		D34AD3611807247A00A56D47 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34AD3601807247A00A56D47 /* AudioToolbox.framework */; };
+		D37DFA6C18081D7500BA4980 /* UIViewWithShakeDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DFA6B18081D7500BA4980 /* UIViewWithShakeDetect.m */; };
+		D37DFA6E1808301400BA4980 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DFA6D1808301400BA4980 /* CoreData.framework */; };
+		D37DFA721808305700BA4980 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D37DFA701808305700BA4980 /* Model.xcdatamodeld */; };
+		D37DFA7818087A0200BA4980 /* FaceSpyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DFA7718087A0200BA4980 /* FaceSpyHelper.m */; };
+		D37DFA7A18087BCD00BA4980 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37DFA7918087BCD00BA4980 /* MediaPlayer.framework */; };
+		D37DFA7D18087CE300BA4980 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = D37DFA7C18087CE300BA4980 /* Video.m */; };
+		D3DFE794180C643000E88B5C /* ScanFaceDetectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DFE792180C643000E88B5C /* ScanFaceDetectedViewController.m */; };
+		D3DFE795180C643000E88B5C /* ScanFaceDetectedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3DFE793180C643000E88B5C /* ScanFaceDetectedViewController.xib */; };
+		D3DFE79A180D005000E88B5C /* UITapGestureRecognizerWithData.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DFE799180D005000E88B5C /* UITapGestureRecognizerWithData.m */; };
+		D3DFE79D180D2A1200E88B5C /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DFE79C180D2A1200E88B5C /* SWTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94FD624E17FE7DBA00348EE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FD622617FE7DB900348EE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FD622D17FE7DB900348EE7;
+			remoteInfo = FaceSpy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21111992189D134C00CA08B2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		21111994189D17CC00CA08B2 /* shutter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shutter.wav; sourceTree = "<group>"; };
+		216FBA78188DA179007BCCC5 /* UICustomRecordButtonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomRecordButtonBase.h; sourceTree = "<group>"; };
+		216FBA79188DA179007BCCC5 /* UICustomRecordButtonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomRecordButtonBase.m; sourceTree = "<group>"; };
+		217AA2C1182E945C00E21F5E /* FaceSpy copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FaceSpy copy-Info.plist"; sourceTree = "<group>"; };
+		94ED21DB17FECD3C009CC021 /* ARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMacros.h; sourceTree = "<group>"; };
+		94ED21DC17FECD3C009CC021 /* FPPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverController.h; sourceTree = "<group>"; };
+		94ED21DD17FECD3C009CC021 /* FPPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverController.m; sourceTree = "<group>"; };
+		94ED21DE17FECD3C009CC021 /* FPPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverView.h; sourceTree = "<group>"; };
+		94ED21DF17FECD3C009CC021 /* FPPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverView.m; sourceTree = "<group>"; };
+		94ED21E017FECD3C009CC021 /* FPTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTouchView.h; sourceTree = "<group>"; };
+		94ED21E117FECD3C009CC021 /* FPTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTouchView.m; sourceTree = "<group>"; };
+		94ED21E217FECD3C009CC021 /* JJToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJToolbar.h; sourceTree = "<group>"; };
+		94ED21E317FECD3C009CC021 /* JJToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJToolbar.m; sourceTree = "<group>"; };
+		94ED21E417FECD3C009CC021 /* JJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
+		94ED21E517FECD3C009CC021 /* JJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
+		94ED21F017FED170009CC021 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		94ED21F117FED170009CC021 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		94ED21F217FED170009CC021 /* ScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanViewController.xib; sourceTree = "<group>"; };
+		94ED21F517FED4FF009CC021 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		94ED221F17FEFF73009CC021 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		94ED222017FEFF73009CC021 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		94ED222117FEFF73009CC021 /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		94ED222517FF0260009CC021 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		94ED222617FF0260009CC021 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		94ED222717FF0260009CC021 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		94EED63A1800CCC100E221A4 /* HistoryObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryObject.h; sourceTree = "<group>"; };
+		94EED63B1800CCC100E221A4 /* HistoryObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryObject.m; sourceTree = "<group>"; };
+		94F0AFE01801E6AB004088E3 /* AlertSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertSettingViewController.h; sourceTree = "<group>"; };
+		94F0AFE11801E6AB004088E3 /* AlertSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertSettingViewController.m; sourceTree = "<group>"; };
+		94F0AFE21801E6AB004088E3 /* AlertSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertSettingViewController.xib; sourceTree = "<group>"; };
+		94F550331800AF6B00475AA2 /* PopOverMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverMenuViewController.h; sourceTree = "<group>"; };
+		94F550341800AF6C00475AA2 /* PopOverMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverMenuViewController.m; sourceTree = "<group>"; };
+		94F550351800AF6C00475AA2 /* PopOverMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverMenuViewController.xib; sourceTree = "<group>"; };
+		94F550381800AFE300475AA2 /* PopOverMenuViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopOverMenuViewControllerDelegate.h; sourceTree = "<group>"; };
+		94F63CBB17FF503A00F0F582 /* MinimizedModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimizedModeViewController.h; sourceTree = "<group>"; };
+		94F63CBC17FF503A00F0F582 /* MinimizedModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimizedModeViewController.m; sourceTree = "<group>"; };
+		94F63CBD17FF503A00F0F582 /* MinimizedModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MinimizedModeViewController.xib; sourceTree = "<group>"; };
+		94FD622E17FE7DB900348EE7 /* FaceSpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceSpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FD623117FE7DB900348EE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94FD623317FE7DB900348EE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94FD623517FE7DB900348EE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94FD623917FE7DB900348EE7 /* FaceSpy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceSpy-Info.plist"; sourceTree = "<group>"; };
+		94FD623B17FE7DB900348EE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FD623D17FE7DB900348EE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94FD623F17FE7DB900348EE7 /* FaceSpy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceSpy-Prefix.pch"; sourceTree = "<group>"; };
+		94FD624017FE7DB900348EE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94FD624117FE7DB900348EE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94FD624317FE7DB900348EE7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94FD624917FE7DB900348EE7 /* FaceSpyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceSpyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FD624A17FE7DB900348EE7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94FD625217FE7DBA00348EE7 /* FaceSpyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceSpyTests-Info.plist"; sourceTree = "<group>"; };
+		94FD625417FE7DBA00348EE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FD625617FE7DBA00348EE7 /* FaceSpyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceSpyTests.m; sourceTree = "<group>"; };
+		D302821A1805E3D600B78B93 /* CameraEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraEngine.h; sourceTree = "<group>"; };
+		D302821B1805E3D600B78B93 /* CameraEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraEngine.m; sourceTree = "<group>"; };
+		D302821C1805E3D600B78B93 /* VideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEncoder.h; sourceTree = "<group>"; };
+		D302821D1805E3D600B78B93 /* VideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
+		D30282201805E40300B78B93 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D30282221805E40A00B78B93 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D30282241805E41700B78B93 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D30282261805E45900B78B93 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D30282281805E48700B78B93 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		D30282291805E48700B78B93 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		D335AB9218166DDE00982A84 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		D335AB9318166DDE00982A84 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		D337ECB9180BEF7C00BAFD88 /* UISwipeGestureRecognizerWithData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwipeGestureRecognizerWithData.h; sourceTree = "<group>"; };
+		D337ECBA180BEF7C00BAFD88 /* UISwipeGestureRecognizerWithData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISwipeGestureRecognizerWithData.m; sourceTree = "<group>"; };
+		D337ECBC180BF0FA00BAFD88 /* UIButtonWithData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonWithData.h; sourceTree = "<group>"; };
+		D337ECBD180BF0FA00BAFD88 /* UIButtonWithData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonWithData.m; sourceTree = "<group>"; };
+		D337ECC6180BF36600BAFD88 /* UIViewWithData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewWithData.h; sourceTree = "<group>"; };
+		D337ECC7180BF36600BAFD88 /* UIViewWithData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewWithData.m; sourceTree = "<group>"; };
+		D346279218263C1200F4C1C9 /* FaceSpy Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceSpy Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34AD3601807247A00A56D47 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D37DFA6A18081D7500BA4980 /* UIViewWithShakeDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewWithShakeDetect.h; sourceTree = "<group>"; };
+		D37DFA6B18081D7500BA4980 /* UIViewWithShakeDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewWithShakeDetect.m; sourceTree = "<group>"; };
+		D37DFA6D1808301400BA4980 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D37DFA711808305700BA4980 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D37DFA7618087A0200BA4980 /* FaceSpyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceSpyHelper.h; sourceTree = "<group>"; };
+		D37DFA7718087A0200BA4980 /* FaceSpyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceSpyHelper.m; sourceTree = "<group>"; };
+		D37DFA7918087BCD00BA4980 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D37DFA7B18087CE300BA4980 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Video.h; path = DataBase/Video.h; sourceTree = "<group>"; };
+		D37DFA7C18087CE300BA4980 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Video.m; path = DataBase/Video.m; sourceTree = "<group>"; };
+		D3DFE791180C643000E88B5C /* ScanFaceDetectedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanFaceDetectedViewController.h; sourceTree = "<group>"; };
+		D3DFE792180C643000E88B5C /* ScanFaceDetectedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanFaceDetectedViewController.m; sourceTree = "<group>"; };
+		D3DFE793180C643000E88B5C /* ScanFaceDetectedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanFaceDetectedViewController.xib; sourceTree = "<group>"; };
+		D3DFE798180D005000E88B5C /* UITapGestureRecognizerWithData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITapGestureRecognizerWithData.h; sourceTree = "<group>"; };
+		D3DFE799180D005000E88B5C /* UITapGestureRecognizerWithData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITapGestureRecognizerWithData.m; sourceTree = "<group>"; };
+		D3DFE79B180D2A1200E88B5C /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		D3DFE79C180D2A1200E88B5C /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94FD622B17FE7DB900348EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37DFA7A18087BCD00BA4980 /* MediaPlayer.framework in Frameworks */,
+				D37DFA6E1808301400BA4980 /* CoreData.framework in Frameworks */,
+				D34AD3611807247A00A56D47 /* AudioToolbox.framework in Frameworks */,
+				D30282271805E45900B78B93 /* AssetsLibrary.framework in Frameworks */,
+				D30282251805E41700B78B93 /* CoreImage.framework in Frameworks */,
+				D30282231805E40A00B78B93 /* CoreVideo.framework in Frameworks */,
+				D30282211805E40300B78B93 /* AVFoundation.framework in Frameworks */,
+				94FD623417FE7DB900348EE7 /* CoreGraphics.framework in Frameworks */,
+				94FD623617FE7DB900348EE7 /* UIKit.framework in Frameworks */,
+				94FD623217FE7DB900348EE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD624617FE7DB900348EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FD624B17FE7DB900348EE7 /* XCTest.framework in Frameworks */,
+				94FD624D17FE7DB900348EE7 /* UIKit.framework in Frameworks */,
+				94FD624C17FE7DB900348EE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D346275118263C1200F4C1C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D346275218263C1200F4C1C9 /* MediaPlayer.framework in Frameworks */,
+				D346275318263C1200F4C1C9 /* CoreData.framework in Frameworks */,
+				D346275418263C1200F4C1C9 /* AudioToolbox.framework in Frameworks */,
+				D346275518263C1200F4C1C9 /* AssetsLibrary.framework in Frameworks */,
+				D346275618263C1200F4C1C9 /* CoreImage.framework in Frameworks */,
+				D346275718263C1200F4C1C9 /* CoreVideo.framework in Frameworks */,
+				D346275818263C1200F4C1C9 /* AVFoundation.framework in Frameworks */,
+				D346275918263C1200F4C1C9 /* CoreGraphics.framework in Frameworks */,
+				D346275A18263C1200F4C1C9 /* UIKit.framework in Frameworks */,
+				D346275B18263C1200F4C1C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217AC35F188C5A9A00724712 /* RecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				216FBA78188DA179007BCCC5 /* UICustomRecordButtonBase.h */,
+				216FBA79188DA179007BCCC5 /* UICustomRecordButtonBase.m */,
+			);
+			name = RecordButton;
+			sourceTree = "<group>";
+		};
+		94ED21EB17FECD49009CC021 /* JJToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				94ED21E217FECD3C009CC021 /* JJToolbar.h */,
+				94ED21E317FECD3C009CC021 /* JJToolbar.m */,
+				94ED21E417FECD3C009CC021 /* JJViewController.h */,
+				94ED21E517FECD3C009CC021 /* JJViewController.m */,
+			);
+			name = JJToolbar;
+			sourceTree = "<group>";
+		};
+		94ED21EC17FECD5A009CC021 /* FPPopover */ = {
+			isa = PBXGroup;
+			children = (
+				94ED21DB17FECD3C009CC021 /* ARCMacros.h */,
+				94ED21DC17FECD3C009CC021 /* FPPopoverController.h */,
+				94ED21DD17FECD3C009CC021 /* FPPopoverController.m */,
+				94ED21DE17FECD3C009CC021 /* FPPopoverView.h */,
+				94ED21DF17FECD3C009CC021 /* FPPopoverView.m */,
+				94ED21E017FECD3C009CC021 /* FPTouchView.h */,
+				94ED21E117FECD3C009CC021 /* FPTouchView.m */,
+			);
+			name = FPPopover;
+			sourceTree = "<group>";
+		};
+		94ED21ED17FECD63009CC021 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				D337ECBF180BF28B00BAFD88 /* Category */,
+				94ED21EC17FECD5A009CC021 /* FPPopover */,
+				94ED21EB17FECD49009CC021 /* JJToolbar */,
+				D37DFA6A18081D7500BA4980 /* UIViewWithShakeDetect.h */,
+				D37DFA6B18081D7500BA4980 /* UIViewWithShakeDetect.m */,
+				D37DFA7618087A0200BA4980 /* FaceSpyHelper.h */,
+				D37DFA7718087A0200BA4980 /* FaceSpyHelper.m */,
+				D337ECB9180BEF7C00BAFD88 /* UISwipeGestureRecognizerWithData.h */,
+				D337ECBA180BEF7C00BAFD88 /* UISwipeGestureRecognizerWithData.m */,
+				D337ECBC180BF0FA00BAFD88 /* UIButtonWithData.h */,
+				D337ECBD180BF0FA00BAFD88 /* UIButtonWithData.m */,
+				D337ECC6180BF36600BAFD88 /* UIViewWithData.h */,
+				D337ECC7180BF36600BAFD88 /* UIViewWithData.m */,
+				D3DFE798180D005000E88B5C /* UITapGestureRecognizerWithData.h */,
+				D3DFE799180D005000E88B5C /* UITapGestureRecognizerWithData.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		94ED21EE17FECD6C009CC021 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				94FD624017FE7DB900348EE7 /* AppDelegate.h */,
+				94FD624117FE7DB900348EE7 /* AppDelegate.m */,
+				94ED21F517FED4FF009CC021 /* MainWindow.xib */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		94ED21EF17FED142009CC021 /* ScanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				217AC35F188C5A9A00724712 /* RecordButton */,
+				D30282191805E39F00B78B93 /* Camera */,
+				94ED21F017FED170009CC021 /* ScanViewController.h */,
+				94ED21F117FED170009CC021 /* ScanViewController.m */,
+				94ED21F217FED170009CC021 /* ScanViewController.xib */,
+				D3DFE791180C643000E88B5C /* ScanFaceDetectedViewController.h */,
+				D3DFE792180C643000E88B5C /* ScanFaceDetectedViewController.m */,
+				D3DFE793180C643000E88B5C /* ScanFaceDetectedViewController.xib */,
+			);
+			name = ScanViewController;
+			sourceTree = "<group>";
+		};
+		94ED21F717FED5A3009CC021 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				21111994189D17CC00CA08B2 /* shutter.wav */,
+				D335AB9218166DDE00982A84 /* iTunesArtwork */,
+				D335AB9318166DDE00982A84 /* iTunesArtwork@2x */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		94ED221E17FEFF39009CC021 /* HistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				94ED221F17FEFF73009CC021 /* HistoryViewController.h */,
+				94ED222017FEFF73009CC021 /* HistoryViewController.m */,
+				94ED222117FEFF73009CC021 /* HistoryViewController.xib */,
+				D3DFE79B180D2A1200E88B5C /* SWTableViewCell.h */,
+				D3DFE79C180D2A1200E88B5C /* SWTableViewCell.m */,
+			);
+			name = HistoryViewController;
+			sourceTree = "<group>";
+		};
+		94ED222417FF015C009CC021 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				94ED222517FF0260009CC021 /* SettingsViewController.h */,
+				94ED222617FF0260009CC021 /* SettingsViewController.m */,
+				94ED222717FF0260009CC021 /* SettingsViewController.xib */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		94EED63D1800CCF900E221A4 /* HistoryObject */ = {
+			isa = PBXGroup;
+			children = (
+				94EED63A1800CCC100E221A4 /* HistoryObject.h */,
+				94EED63B1800CCC100E221A4 /* HistoryObject.m */,
+			);
+			name = HistoryObject;
+			sourceTree = "<group>";
+		};
+		94F0AFDF1801E5A7004088E3 /* AlertSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				94F0AFE01801E6AB004088E3 /* AlertSettingViewController.h */,
+				94F0AFE11801E6AB004088E3 /* AlertSettingViewController.m */,
+				94F0AFE21801E6AB004088E3 /* AlertSettingViewController.xib */,
+			);
+			name = AlertSettingViewController;
+			sourceTree = "<group>";
+		};
+		94F550321800AF3000475AA2 /* PopOverMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				94F550381800AFE300475AA2 /* PopOverMenuViewControllerDelegate.h */,
+				94F550331800AF6B00475AA2 /* PopOverMenuViewController.h */,
+				94F550341800AF6C00475AA2 /* PopOverMenuViewController.m */,
+				94F550351800AF6C00475AA2 /* PopOverMenuViewController.xib */,
+			);
+			name = PopOverMenuViewController;
+			sourceTree = "<group>";
+		};
+		94F63CBA17FF501F00F0F582 /* MinimizedModeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				94F63CBB17FF503A00F0F582 /* MinimizedModeViewController.h */,
+				94F63CBC17FF503A00F0F582 /* MinimizedModeViewController.m */,
+				94F63CBD17FF503A00F0F582 /* MinimizedModeViewController.xib */,
+			);
+			name = MinimizedModeViewController;
+			sourceTree = "<group>";
+		};
+		94FD622517FE7DB900348EE7 = {
+			isa = PBXGroup;
+			children = (
+				217AA2C1182E945C00E21F5E /* FaceSpy copy-Info.plist */,
+				94FD623717FE7DB900348EE7 /* FaceSpy */,
+				94FD625017FE7DBA00348EE7 /* FaceSpyTests */,
+				94FD623017FE7DB900348EE7 /* Frameworks */,
+				94FD622F17FE7DB900348EE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94FD622F17FE7DB900348EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FD622E17FE7DB900348EE7 /* FaceSpy.app */,
+				94FD624917FE7DB900348EE7 /* FaceSpyTests.xctest */,
+				D346279218263C1200F4C1C9 /* FaceSpy Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FD623017FE7DB900348EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21111992189D134C00CA08B2 /* CoreAudio.framework */,
+				D37DFA7918087BCD00BA4980 /* MediaPlayer.framework */,
+				D37DFA6D1808301400BA4980 /* CoreData.framework */,
+				D34AD3601807247A00A56D47 /* AudioToolbox.framework */,
+				D30282261805E45900B78B93 /* AssetsLibrary.framework */,
+				D30282241805E41700B78B93 /* CoreImage.framework */,
+				D30282221805E40A00B78B93 /* CoreVideo.framework */,
+				D30282201805E40300B78B93 /* AVFoundation.framework */,
+				94FD623117FE7DB900348EE7 /* Foundation.framework */,
+				94FD623317FE7DB900348EE7 /* CoreGraphics.framework */,
+				94FD623517FE7DB900348EE7 /* UIKit.framework */,
+				94FD624A17FE7DB900348EE7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94FD623717FE7DB900348EE7 /* FaceSpy */ = {
+			isa = PBXGroup;
+			children = (
+				94ED21EE17FECD6C009CC021 /* AppDelegate */,
+				94ED21EF17FED142009CC021 /* ScanViewController */,
+				94EED63D1800CCF900E221A4 /* HistoryObject */,
+				94ED221E17FEFF39009CC021 /* HistoryViewController */,
+				94F550321800AF3000475AA2 /* PopOverMenuViewController */,
+				94ED222417FF015C009CC021 /* SettingsViewController */,
+				94F0AFDF1801E5A7004088E3 /* AlertSettingViewController */,
+				94F63CBA17FF501F00F0F582 /* MinimizedModeViewController */,
+				94FD624317FE7DB900348EE7 /* Images.xcassets */,
+				94ED21ED17FECD63009CC021 /* Custom */,
+				D37DFA6F1808301D00BA4980 /* DataBase */,
+				94ED21F717FED5A3009CC021 /* Resource */,
+				94FD623817FE7DB900348EE7 /* Supporting Files */,
+			);
+			path = FaceSpy;
+			sourceTree = "<group>";
+		};
+		94FD623817FE7DB900348EE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FD623917FE7DB900348EE7 /* FaceSpy-Info.plist */,
+				94FD623A17FE7DB900348EE7 /* InfoPlist.strings */,
+				94FD623D17FE7DB900348EE7 /* main.m */,
+				94FD623F17FE7DB900348EE7 /* FaceSpy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94FD625017FE7DBA00348EE7 /* FaceSpyTests */ = {
+			isa = PBXGroup;
+			children = (
+				94FD625617FE7DBA00348EE7 /* FaceSpyTests.m */,
+				94FD625117FE7DBA00348EE7 /* Supporting Files */,
+			);
+			path = FaceSpyTests;
+			sourceTree = "<group>";
+		};
+		94FD625117FE7DBA00348EE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FD625217FE7DBA00348EE7 /* FaceSpyTests-Info.plist */,
+				94FD625317FE7DBA00348EE7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D30282191805E39F00B78B93 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D302821A1805E3D600B78B93 /* CameraEngine.h */,
+				D302821B1805E3D600B78B93 /* CameraEngine.m */,
+				D302821C1805E3D600B78B93 /* VideoEncoder.h */,
+				D302821D1805E3D600B78B93 /* VideoEncoder.m */,
+				D30282281805E48700B78B93 /* FaceView.h */,
+				D30282291805E48700B78B93 /* FaceView.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		D337ECBF180BF28B00BAFD88 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		D37DFA6F1808301D00BA4980 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				D37DFA7B18087CE300BA4980 /* Video.h */,
+				D37DFA7C18087CE300BA4980 /* Video.m */,
+				D37DFA701808305700BA4980 /* Model.xcdatamodeld */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94FD622D17FE7DB900348EE7 /* FaceSpy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FD625A17FE7DBA00348EE7 /* Build configuration list for PBXNativeTarget "FaceSpy" */;
+			buildPhases = (
+				94FD622A17FE7DB900348EE7 /* Sources */,
+				94FD622B17FE7DB900348EE7 /* Frameworks */,
+				94FD622C17FE7DB900348EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceSpy;
+			productName = FaceSpy;
+			productReference = 94FD622E17FE7DB900348EE7 /* FaceSpy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94FD624817FE7DB900348EE7 /* FaceSpyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FD625D17FE7DBA00348EE7 /* Build configuration list for PBXNativeTarget "FaceSpyTests" */;
+			buildPhases = (
+				94FD624517FE7DB900348EE7 /* Sources */,
+				94FD624617FE7DB900348EE7 /* Frameworks */,
+				94FD624717FE7DB900348EE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FD624F17FE7DBA00348EE7 /* PBXTargetDependency */,
+			);
+			name = FaceSpyTests;
+			productName = FaceSpyTests;
+			productReference = 94FD624917FE7DB900348EE7 /* FaceSpyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D346273418263C1200F4C1C9 /* FaceSpy Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D346278F18263C1200F4C1C9 /* Build configuration list for PBXNativeTarget "FaceSpy Lite" */;
+			buildPhases = (
+				D346273518263C1200F4C1C9 /* Sources */,
+				D346275118263C1200F4C1C9 /* Frameworks */,
+				D346275C18263C1200F4C1C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FaceSpy Lite";
+			productName = FaceSpy;
+			productReference = D346279218263C1200F4C1C9 /* FaceSpy Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94FD622617FE7DB900348EE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "SY's PC";
+				TargetAttributes = {
+					94FD622D17FE7DB900348EE7 = {
+						DevelopmentTeam = 44P2L32FL4;
+					};
+					94FD624817FE7DB900348EE7 = {
+						TestTargetID = 94FD622D17FE7DB900348EE7;
+					};
+					D346273418263C1200F4C1C9 = {
+						DevelopmentTeam = 44P2L32FL4;
+					};
+				};
+			};
+			buildConfigurationList = 94FD622917FE7DB900348EE7 /* Build configuration list for PBXProject "FaceSpy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94FD622517FE7DB900348EE7;
+			productRefGroup = 94FD622F17FE7DB900348EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94FD622D17FE7DB900348EE7 /* FaceSpy */,
+				94FD624817FE7DB900348EE7 /* FaceSpyTests */,
+				D346273418263C1200F4C1C9 /* FaceSpy Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94FD622C17FE7DB900348EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D335AB9418166DDE00982A84 /* iTunesArtwork in Resources */,
+				94F0AFE41801E6AB004088E3 /* AlertSettingViewController.xib in Resources */,
+				94ED21F617FED4FF009CC021 /* MainWindow.xib in Resources */,
+				94ED222917FF0260009CC021 /* SettingsViewController.xib in Resources */,
+				94ED222317FEFF73009CC021 /* HistoryViewController.xib in Resources */,
+				94F63CBF17FF503A00F0F582 /* MinimizedModeViewController.xib in Resources */,
+				94F550371800AF6C00475AA2 /* PopOverMenuViewController.xib in Resources */,
+				21111995189D17CC00CA08B2 /* shutter.wav in Resources */,
+				217AA2C2182E945C00E21F5E /* FaceSpy copy-Info.plist in Resources */,
+				94ED21F417FED170009CC021 /* ScanViewController.xib in Resources */,
+				D3DFE795180C643000E88B5C /* ScanFaceDetectedViewController.xib in Resources */,
+				D335AB9518166DDE00982A84 /* iTunesArtwork@2x in Resources */,
+				94FD623C17FE7DB900348EE7 /* InfoPlist.strings in Resources */,
+				94FD624417FE7DB900348EE7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD624717FE7DB900348EE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FD625517FE7DBA00348EE7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D346275C18263C1200F4C1C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D346275E18263C1200F4C1C9 /* iTunesArtwork in Resources */,
+				D346276318263C1200F4C1C9 /* AlertSettingViewController.xib in Resources */,
+				D346276B18263C1200F4C1C9 /* MainWindow.xib in Resources */,
+				D346276F18263C1200F4C1C9 /* SettingsViewController.xib in Resources */,
+				D346277118263C1200F4C1C9 /* HistoryViewController.xib in Resources */,
+				D346277518263C1200F4C1C9 /* MinimizedModeViewController.xib in Resources */,
+				D346277618263C1200F4C1C9 /* PopOverMenuViewController.xib in Resources */,
+				D346277C18263C1200F4C1C9 /* ScanViewController.xib in Resources */,
+				D346277E18263C1200F4C1C9 /* ScanFaceDetectedViewController.xib in Resources */,
+				21111996189D17CC00CA08B2 /* shutter.wav in Resources */,
+				D346278518263C1200F4C1C9 /* iTunesArtwork@2x in Resources */,
+				D346278A18263C1200F4C1C9 /* InfoPlist.strings in Resources */,
+				D346278B18263C1200F4C1C9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94FD622A17FE7DB900348EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D302821F1805E3D600B78B93 /* VideoEncoder.m in Sources */,
+				94ED21E617FECD3C009CC021 /* FPPopoverController.m in Sources */,
+				D3DFE79D180D2A1200E88B5C /* SWTableViewCell.m in Sources */,
+				94ED21E817FECD3D009CC021 /* FPTouchView.m in Sources */,
+				94F550361800AF6C00475AA2 /* PopOverMenuViewController.m in Sources */,
+				94ED222217FEFF73009CC021 /* HistoryViewController.m in Sources */,
+				D337ECBE180BF0FA00BAFD88 /* UIButtonWithData.m in Sources */,
+				D3DFE794180C643000E88B5C /* ScanFaceDetectedViewController.m in Sources */,
+				216FBA7A188DA179007BCCC5 /* UICustomRecordButtonBase.m in Sources */,
+				D302821E1805E3D600B78B93 /* CameraEngine.m in Sources */,
+				D37DFA7D18087CE300BA4980 /* Video.m in Sources */,
+				D37DFA7818087A0200BA4980 /* FaceSpyHelper.m in Sources */,
+				D37DFA6C18081D7500BA4980 /* UIViewWithShakeDetect.m in Sources */,
+				94FD624217FE7DB900348EE7 /* AppDelegate.m in Sources */,
+				94ED21F317FED170009CC021 /* ScanViewController.m in Sources */,
+				94ED21E917FECD3D009CC021 /* JJToolbar.m in Sources */,
+				94ED21EA17FECD3D009CC021 /* JJViewController.m in Sources */,
+				D302822C1805E48700B78B93 /* FaceView.m in Sources */,
+				94EED63C1800CCC100E221A4 /* HistoryObject.m in Sources */,
+				94ED222817FF0260009CC021 /* SettingsViewController.m in Sources */,
+				94ED21E717FECD3C009CC021 /* FPPopoverView.m in Sources */,
+				D337ECC8180BF36600BAFD88 /* UIViewWithData.m in Sources */,
+				D337ECBB180BEF7C00BAFD88 /* UISwipeGestureRecognizerWithData.m in Sources */,
+				94F63CBE17FF503A00F0F582 /* MinimizedModeViewController.m in Sources */,
+				94F0AFE31801E6AB004088E3 /* AlertSettingViewController.m in Sources */,
+				D3DFE79A180D005000E88B5C /* UITapGestureRecognizerWithData.m in Sources */,
+				D37DFA721808305700BA4980 /* Model.xcdatamodeld in Sources */,
+				94FD623E17FE7DB900348EE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD624517FE7DB900348EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FD625717FE7DBA00348EE7 /* FaceSpyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D346273518263C1200F4C1C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D346273618263C1200F4C1C9 /* VideoEncoder.m in Sources */,
+				D346273718263C1200F4C1C9 /* FPPopoverController.m in Sources */,
+				D346273818263C1200F4C1C9 /* SWTableViewCell.m in Sources */,
+				D346273918263C1200F4C1C9 /* FPTouchView.m in Sources */,
+				D346273A18263C1200F4C1C9 /* PopOverMenuViewController.m in Sources */,
+				D346273B18263C1200F4C1C9 /* HistoryViewController.m in Sources */,
+				D346273C18263C1200F4C1C9 /* UIButtonWithData.m in Sources */,
+				D346273D18263C1200F4C1C9 /* ScanFaceDetectedViewController.m in Sources */,
+				216FBA7B188DA179007BCCC5 /* UICustomRecordButtonBase.m in Sources */,
+				D346273E18263C1200F4C1C9 /* CameraEngine.m in Sources */,
+				D346273F18263C1200F4C1C9 /* Video.m in Sources */,
+				D346274018263C1200F4C1C9 /* FaceSpyHelper.m in Sources */,
+				D346274118263C1200F4C1C9 /* UIViewWithShakeDetect.m in Sources */,
+				D346274218263C1200F4C1C9 /* AppDelegate.m in Sources */,
+				D346274318263C1200F4C1C9 /* ScanViewController.m in Sources */,
+				D346274418263C1200F4C1C9 /* JJToolbar.m in Sources */,
+				D346274518263C1200F4C1C9 /* JJViewController.m in Sources */,
+				D346274618263C1200F4C1C9 /* FaceView.m in Sources */,
+				D346274718263C1200F4C1C9 /* HistoryObject.m in Sources */,
+				D346274818263C1200F4C1C9 /* SettingsViewController.m in Sources */,
+				D346274918263C1200F4C1C9 /* FPPopoverView.m in Sources */,
+				D346274A18263C1200F4C1C9 /* UIViewWithData.m in Sources */,
+				D346274B18263C1200F4C1C9 /* UISwipeGestureRecognizerWithData.m in Sources */,
+				D346274C18263C1200F4C1C9 /* MinimizedModeViewController.m in Sources */,
+				D346274D18263C1200F4C1C9 /* AlertSettingViewController.m in Sources */,
+				D346274E18263C1200F4C1C9 /* UITapGestureRecognizerWithData.m in Sources */,
+				D346274F18263C1200F4C1C9 /* Model.xcdatamodeld in Sources */,
+				D346275018263C1200F4C1C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94FD624F17FE7DBA00348EE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FD622D17FE7DB900348EE7 /* FaceSpy */;
+			targetProxy = 94FD624E17FE7DBA00348EE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94FD623A17FE7DB900348EE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FD623B17FE7DB900348EE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94FD625317FE7DBA00348EE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FD625417FE7DBA00348EE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94FD625817FE7DBA00348EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94FD625917FE7DBA00348EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94FD625B17FE7DBA00348EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceSpy/FaceSpy-Prefix.pch";
+				INFOPLIST_FILE = "FaceSpy/FaceSpy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DLiteVersion=0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94FD625C17FE7DBA00348EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceSpy/FaceSpy-Prefix.pch";
+				INFOPLIST_FILE = "FaceSpy/FaceSpy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DLiteVersion=0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94FD625E17FE7DBA00348EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FaceSpy.app/FaceSpy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceSpy/FaceSpy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FaceSpyTests/FaceSpyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94FD625F17FE7DBA00348EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FaceSpy.app/FaceSpy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceSpy/FaceSpy-Prefix.pch";
+				INFOPLIST_FILE = "FaceSpyTests/FaceSpyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		D346279018263C1200F4C1C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Huta Mobile App (5VRT9TU9MF)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceSpy/FaceSpy-Prefix.pch";
+				INFOPLIST_FILE = "FaceSpy copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DLiteVersion=1";
+				PRODUCT_NAME = "FaceSpy Lite";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D346279118263C1200F4C1C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Huta Mobile App (5VRT9TU9MF)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceSpy/FaceSpy-Prefix.pch";
+				INFOPLIST_FILE = "FaceSpy copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DLiteVersion=1";
+				PRODUCT_NAME = "FaceSpy Lite";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94FD622917FE7DB900348EE7 /* Build configuration list for PBXProject "FaceSpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FD625817FE7DBA00348EE7 /* Debug */,
+				94FD625917FE7DBA00348EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FD625A17FE7DBA00348EE7 /* Build configuration list for PBXNativeTarget "FaceSpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FD625B17FE7DBA00348EE7 /* Debug */,
+				94FD625C17FE7DBA00348EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FD625D17FE7DBA00348EE7 /* Build configuration list for PBXNativeTarget "FaceSpyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FD625E17FE7DBA00348EE7 /* Debug */,
+				94FD625F17FE7DBA00348EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D346278F18263C1200F4C1C9 /* Build configuration list for PBXNativeTarget "FaceSpy Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D346279018263C1200F4C1C9 /* Debug */,
+				D346279118263C1200F4C1C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D37DFA701808305700BA4980 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D37DFA711808305700BA4980 /* Model.xcdatamodel */,
+			);
+			currentVersion = D37DFA711808305700BA4980 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94FD622617FE7DB900348EE7 /* Project object */;
+}
